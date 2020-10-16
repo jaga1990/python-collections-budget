@@ -32,7 +32,7 @@ def main():
         #print(expense.amount)
         myBudgetList.append(expense.amount)
 
-    print('The count of all expenses: ', myBudgetList.__len__())
+    print('The count of all expenses: ', str(len(myBudgetList)))
 
 
 if __name__ == "__main__":
